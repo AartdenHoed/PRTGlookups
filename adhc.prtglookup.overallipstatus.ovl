@@ -3,8 +3,11 @@
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
    <Lookups>
-     <SingleInt state="Ok" value="1">
+     <SingleInt state="Ok" value="0">
        All IP's fine
+     </SingleInt>
+	 <SingleInt state="Warning" value="1">
+       One or more alternate MAC addresses
      </SingleInt>
      <SingleInt state="Error" value="2">
        One of more wrong IP's
