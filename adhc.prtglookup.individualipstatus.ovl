@@ -9,6 +9,9 @@
      <SingleInt state="Ok" value="1">
        Inactive
      </SingleInt>
+     <SingleInt state="Warning" value="2">
+       Alternate MAC address
+     </SingleInt>
      <SingleInt state="Error" value="3">
        Unknown IP
      </SingleInt>
