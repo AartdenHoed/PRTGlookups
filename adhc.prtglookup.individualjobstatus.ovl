@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <ValueLookup id="IndividualJOBStatus" desiredValue="0" undefinedState="Error"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+   <Lookups>
+     <SingleInt state="Ok" value="0">
+       NO changes/actions
+     </SingleInt>
+     <SingleInt state="Ok" value="3">
+       Changes but NO actions
+     </SingleInt>
+     <SingleInt state="Warning" value="6">
+       Action required
+     </SingleInt>
+     <SingleInt state="Error" value="9">
+       Job in ERROR
+     </SingleInt>
+   </Lookups>
+ </ValueLookup>
