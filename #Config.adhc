@@ -4,7 +4,7 @@
 	  <Directory Build="Copy">$ADHC_Onedrive + 'Staging Library\PRTGlookups'</Directory>
 	</Stagelib>
 	<Target>
-	  <Directory Deploy="Copy" Delay="0">C:\Program Files (x86)\PRTG Network Monitor\lookups</Directory>
+	  <Directory Deploy="Copy" Delay="0">C:\Program Files (x86)\PRTG Network Monitor\lookups\custom</Directory>
 	</Target>
 	<DSL>
 	  <Directory Delay="14">D:\Software\DSL\PRTG Network Monitor\lookups</Directory>
