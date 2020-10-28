@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <ValueLookup id="NodeStatus" desiredValue="0" undefinedState="Error"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+   <Lookups>
+     <SingleInt state="Ok" value="0">
+       Computer UP
+     </SingleInt>
+	 <SingleInt state="Ok" value="1">
+       Computer DOWN
+     </SingleInt>
+     
+   </Lookups>
+ </ValueLookup>
