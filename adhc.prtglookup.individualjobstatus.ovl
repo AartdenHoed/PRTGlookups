@@ -12,6 +12,9 @@
      <SingleInt state="Warning" value="6">
        Action required
      </SingleInt>
+     <SingleInt state="Warning" value="7">
+       Lock failed
+     </SingleInt>
      <SingleInt state="Error" value="9">
        Job in ERROR
      </SingleInt>

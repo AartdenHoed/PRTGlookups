@@ -12,6 +12,9 @@
      <SingleInt state="Warning" value="6">
        Job(s) with actions
      </SingleInt>
+     <SingleInt state="Warning" value="7">
+       Job(s) with failed locks
+     </SingleInt>
      <SingleInt state="Error" value="9">
        Job(s) with errors
      </SingleInt>
