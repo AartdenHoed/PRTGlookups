@@ -6,7 +6,7 @@
      <SingleInt state="Ok" value="0">
        Computer Not Active, Not Invokable
      </SingleInt>
-     <SingleInt state="Warning" value="1">
+     <SingleInt state="Ok" value="1">
        Computer Not Active, Invokable
      </SingleInt>
      <SingleInt state="Ok" value="3">
