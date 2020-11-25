@@ -4,18 +4,21 @@
    xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
    <Lookups>
      <SingleInt state="Ok" value="0">
-       Active
+       Cached, Pingable
      </SingleInt>
-     <SingleInt state="Ok" value="1">
+	 <SingleInt state="Ok" value="1">
+       Cached, Not Pingable
+     </SingleInt>
+     <SingleInt state="Ok" value="2">
        Inactive
      </SingleInt>
-     <SingleInt state="Warning" value="2">
+     <SingleInt state="Warning" value="3">
        Alternate MAC address
      </SingleInt>
-     <SingleInt state="Error" value="3">
+     <SingleInt state="Error" value="4">
        Unknown IP
      </SingleInt>
-     <SingleInt state="Error" value="4">
+     <SingleInt state="Error" value="5">
        Wrong MAC address
      </SingleInt>
    </Lookups>
