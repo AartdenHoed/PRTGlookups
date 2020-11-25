@@ -7,10 +7,16 @@
        Inactive
      </SingleInt>
      <SingleInt state="Ok" value="3">
-       Active, not pingable
+       Cached, not pingable
      </SingleInt>
-     <SingleInt state="OK" value="6">
-       Active and pingable
+	 <SingleInt state="Ok" value="6">
+       Pingable, not cached
+     </SingleInt>
+     <SingleInt state="OK" value="9">
+       Cached and pingable
+     </SingleInt>
+	 <SingleInt state="Error" value="12">
+       Scripterror
      </SingleInt>
    </Lookups>
  </ValueLookup>
