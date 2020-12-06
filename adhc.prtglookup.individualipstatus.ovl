@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <ValueLookup id="IndividualIpStatus" desiredValue="0" undefinedState="Error"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+   <Lookups>
+     <SingleInt state="Ok" value="0">
+       Cached, Pingable
+     </SingleInt>
+	 <SingleInt state="Ok" value="1">
+       Cached, Not Pingable
+     </SingleInt>
+     <SingleInt state="Ok" value="2">
+       Inactive
+     </SingleInt>
+     <SingleInt state="Warning" value="3">
+       Alternate MAC address
+     </SingleInt>
+     <SingleInt state="Error" value="4">
+       Unknown IP
+     </SingleInt>
+     <SingleInt state="Error" value="5">
+       Wrong MAC address
+     </SingleInt>
+   </Lookups>
+ </ValueLookup>

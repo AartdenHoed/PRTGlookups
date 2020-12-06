@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <ValueLookup id="OverallDriveStatus" desiredValue="0" undefinedState="Error"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+   <Lookups>
+     <SingleInt state="Ok" value="2">
+       All drives enough free space
+     </SingleInt>
+     <SingleInt state="Warning" value="1">
+       One or more drives in warning state
+     </SingleInt>
+     <SingleInt state="Error" value="0">
+       One or more drives in critical state
+     </SingleInt>
+   </Lookups>
+ </ValueLookup>

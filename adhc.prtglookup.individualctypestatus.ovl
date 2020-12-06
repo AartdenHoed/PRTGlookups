@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <ValueLookup id="IndividualCtypeStatus" desiredValue="0" undefinedState="Error"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+   <Lookups>
+     <SingleInt state="Ok" value="0">
+       Inactive
+     </SingleInt>
+     <SingleInt state="Ok" value="3">
+       Cached, not pingable
+     </SingleInt>
+	 <SingleInt state="Ok" value="6">
+       Pingable, not cached
+     </SingleInt>
+     <SingleInt state="OK" value="9">
+       Cached and pingable
+     </SingleInt>
+	 <SingleInt state="Error" value="12">
+       Scripterror
+     </SingleInt>
+   </Lookups>
+ </ValueLookup>

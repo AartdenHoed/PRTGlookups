@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <ValueLookup id="OverallCtypeStatus" desiredValue="1" undefinedState="Error"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+   <Lookups>
+     <SingleInt state="Ok" value="0">
+       All nodes inactive
+     </SingleInt>
+     <SingleInt state="Ok" value="3">
+       One or more nodes cached, not pingable
+     </SingleInt>
+     <SingleInt state="Ok" value="6">
+       One or more nodes pingable, not cached
+     </SingleInt>
+	 <SingleInt state="Ok" value="9">
+       One or more nodes cached and pingable
+     </SingleInt>
+     <SingleInt state="Error" value="12">
+       SCRIPT error
+     </SingleInt>
+   </Lookups>
+ </ValueLookup>

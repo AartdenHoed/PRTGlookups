@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <ValueLookup id="OverallJobStatus" desiredValue="1" undefinedState="Error"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+   <Lookups>
+     <SingleInt state="Ok" value="0">
+       No job(s) with actions/changes
+     </SingleInt>
+	 <SingleInt state="Ok" value="3">
+       Job(s) with changes, no actions
+     </SingleInt>
+     <SingleInt state="Warning" value="6">
+       Job(s) with actions
+     </SingleInt>
+     <SingleInt state="Warning" value="7">
+       Job(s) with failed locks
+     </SingleInt>
+     <SingleInt state="Error" value="9">
+       Job(s) with errors
+     </SingleInt>
+   </Lookups>
+ </ValueLookup>
