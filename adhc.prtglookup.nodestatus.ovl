@@ -10,16 +10,16 @@
        Computer Not Active, Invokable
      </SingleInt>
      <SingleInt state="Ok" value="3">
-       Computer Cached, Not Invokable
+       Computer Cached, not Pingable, Not Invokable
      </SingleInt>
      <SingleInt state="Ok" value="4">
-       Computer Cached, Invokable
+       Computer Cached, not Pingable,  Invokable
      </SingleInt>
      <SingleInt state="Ok" value="6">
-	Computer Pingable, Not Invokable
+	Computer Not Cached, Pingable, Not Invokable
      </SingleInt>
      <SingleInt state="Ok" value="7">
-	Computer Pingable, Invokable
+	Computer Not Cached, Pingable, Invokable
      </SingleInt>
      <SingleInt state="Ok" value="9">
 	Computer Cached, Pingable, Not Invokable

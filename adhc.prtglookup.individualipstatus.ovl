@@ -7,18 +7,21 @@
        Cached, Pingable
      </SingleInt>
 	 <SingleInt state="Ok" value="1">
+       Not Cached, Pingable
+     </SingleInt>
+	 <SingleInt state="Ok" value="2">
        Cached, Not Pingable
      </SingleInt>
-     <SingleInt state="Ok" value="2">
+     <SingleInt state="Ok" value="3">
        Inactive
      </SingleInt>
-     <SingleInt state="Warning" value="3">
+     <SingleInt state="Warning" value="4">
        Alternate MAC address
      </SingleInt>
-     <SingleInt state="Error" value="4">
+     <SingleInt state="Error" value="5">
        Unknown IP
      </SingleInt>
-     <SingleInt state="Error" value="5">
+     <SingleInt state="Error" value="6">
        Wrong MAC address
      </SingleInt>
    </Lookups>
