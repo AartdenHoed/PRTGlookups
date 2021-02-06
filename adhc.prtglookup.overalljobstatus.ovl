@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <ValueLookup id="OverallJobStatus" desiredValue="1" undefinedState="Error"
+ <ValueLookup id="OverallJobStatus" desiredValue="0" undefinedState="Error"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
    <Lookups>

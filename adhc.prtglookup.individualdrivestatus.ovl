@@ -3,14 +3,14 @@
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
    <Lookups>
-     <SingleInt state="Ok" value="2">
-       Enough free space
-     </SingleInt>
-     <SingleInt state="Warning" value="1">
-       Freespace less than 5 GB or 10%
-     </SingleInt>
      <SingleInt state="Error" value="0">
        Freespace less than 3 GB or 5%
+     </SingleInt>
+	 <SingleInt state="Warning" value="1">
+       Freespace less than 5 GB or 10%
+     </SingleInt>
+	 <SingleInt state="Ok" value="2">
+       Enough free space
      </SingleInt>
    </Lookups>
  </ValueLookup>
