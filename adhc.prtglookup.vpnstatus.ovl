@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <ValueLookup id="VpnStatus" desiredValue="10" undefinedState="Error"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+   <Lookups>
+     <SingleInt state="Ok" value="0">
+       IP adres is veilig (via VPN)
+     </SingleInt>
+     <SingleInt state="Warning" value="1">
+       Status onbekend (INIT fase)
+     </SingleInt>
+     <SingleInt state="Error" value="2">
+       IP adres NIET veilig
+     </SingleInt>
+     <SingleInt state="Error" value="3">
+       Processing error
+     </SingleInt>
+   </Lookups>
+ </ValueLookup>
