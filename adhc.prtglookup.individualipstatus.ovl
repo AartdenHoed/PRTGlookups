@@ -24,5 +24,8 @@
      <SingleInt state="Error" value="6">
        Wrong MAC address
      </SingleInt>
+	 <SingleInt state="Error" value="7">
+       Illegal IP
+     </SingleInt>
    </Lookups>
  </ValueLookup>
