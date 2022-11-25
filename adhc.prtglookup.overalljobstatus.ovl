@@ -15,6 +15,9 @@
      <SingleInt state="Warning" value="7">
        Job(s) with failed locks
      </SingleInt>
+	 <SingleInt state="Warning" value="8">
+       Missing job status (JST) file(s)
+     </SingleInt>
      <SingleInt state="Error" value="9">
        Job(s) with errors
      </SingleInt>

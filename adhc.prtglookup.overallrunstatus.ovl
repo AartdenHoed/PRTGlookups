@@ -9,7 +9,10 @@
 	 <SingleInt state="Ok" value="2">
        Job(s) waiting
      </SingleInt>
-     <SingleInt state="Error" value="6">
+     <SingleInt state="Warning" value="5">
+       Missing job status (JST) file(s)
+     </SingleInt>
+	 <SingleInt state="Error" value="6">
        NON-Executed job(s)
      </SingleInt>
    </Lookups>
