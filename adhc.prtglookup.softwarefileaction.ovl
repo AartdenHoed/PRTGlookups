@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <ValueLookup id="SoftwareFileAction" desiredValue="0" undefinedState="Error"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+   <Lookups>
+     <SingleInt state="Ok" value="0">
+       None
+     </SingleInt>
+	 <SingleInt state="Ok" value="1">
+       Replace
+     </SingleInt>
+	 <SingleInt state="Ok" value="2">
+       Create 
+     </SingleInt>     
+   </Lookups>
+ </ValueLookup>
