@@ -15,7 +15,7 @@
      <SingleInt state="Ok" value="3">
        Inactive
      </SingleInt>
-     <SingleInt state="Warning" value="4">
+     <SingleInt state="Ok" value="4">
        Alternate MAC address
      </SingleInt>
      <SingleInt state="Error" value="5">
